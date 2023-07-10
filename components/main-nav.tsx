@@ -26,7 +26,17 @@ export function MainNav({
           href: `/${params.storeId}/categories`,
           label: 'Categories',
           active: pathname === `/${params.storeId}/categories`,
-      },
+        },
+        {
+          href: `/${params.storeId}/weights`,
+          label: 'Weights',
+          active: pathname === `/${params.storeId}/weights`,
+        },
+        {
+          href: `/${params.storeId}/brands`,
+          label: 'Brands',
+          active: pathname === `/${params.storeId}/brands`,
+        },
         {
             href: `/${params.storeId}/settings`,
             label: 'Settings',
