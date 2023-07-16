@@ -29,7 +29,6 @@ const formattedProducts: ProductColumn[] = products.map((item) => ({
   isFeatured: item.isFeatured,
   isArchived: item.isArchived,
   price: formatters.format(item.price.toNumber()),
-  quantity: item.quantity,
   category: item.category.name,
   brand: item.brand.name,
   weight: item.weight.name,
