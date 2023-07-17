@@ -15,32 +15,31 @@ interface CellActionProps {
 };
 
 export const CellAction: React.FC<CellActionProps> = ({
-  data
+  data,
 }) => {
-  const router = useRouter();
-  const params = useParams();
-
   const [loading, setLoading] = useState(false);
   const [open, setOpen] = useState(false);
+  const router = useRouter();
+  const params = useParams();
 
   const onCopy = (id: string) => {
     navigator.clipboard.writeText(id);
     toast.success("Copied to clipboard");
 };
 
-const onDelete = async () => {
+const onConfirm = async () => {
   try {
       setLoading(true);
       await axios.delete(`/api/${params.storeId}/products/${data.id}`);
-      router.refresh();
       toast.success("Product deleted");
+      router.refresh();
   } catch (error) {
-      toast.error("Something went wrong");
+      toast.error("Something went wrong with deleting the product");
   } finally {
       setLoading(false);
       setOpen(false);
   }
-}
+};
 
 
   return (
@@ -48,7 +47,7 @@ const onDelete = async () => {
     <AlertModal 
       isOpen={open}
       onClose={() => setOpen(false)}
-      onConfirm={onDelete}
+      onConfirm={onConfirm}
       loading={loading}
     />
     <DropdownMenu>

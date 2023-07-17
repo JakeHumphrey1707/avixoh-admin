@@ -9,7 +9,7 @@ import * as z from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useState } from "react";
-import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
+import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage, } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { toast } from "react-hot-toast";
 import axios from "axios";
@@ -18,11 +18,13 @@ import { AlertModal } from "@/components/modals/alert-modal";
 import ImageUpload from "@/components/ui/image-upload";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Checkbox } from "@/components/ui/checkbox";
+import { Textarea } from "@/components/ui/textarea";
 
 const formSchema = z.object({
     name: z.string().min(1),
     images: z.object({ url: z.string() }).array(),
     price:  z.coerce.number().min(1),
+    description: z.string().min(1),
     categoryId: z.string().min(1),
     weightId: z.string().min(1),
     brandId: z.string().min(1),
@@ -67,6 +69,7 @@ export const ProductForm: React.FC<ProductFormProps> = ({
             name: '',
             images: [],
             price: 0,
+            description: '',
             categoryId: '',
             weightId: '',
             brandId: '',
@@ -334,6 +337,19 @@ export const ProductForm: React.FC<ProductFormProps> = ({
                                         Product will not appear anywhere in the store
                                       </FormDescription>
                                     </div>
+                                </FormItem>
+                            )}
+                        />
+                        <FormField
+                            control={form.control}
+                            name="description"
+                            render={({ field }) => (
+                                <FormItem className="col-span-2">
+                                    <FormLabel>Description</FormLabel>
+                                    <FormControl>
+                                        <Textarea disabled={loading} placeholder="Product description" {...field} />
+                                    </FormControl>
+                                    <FormMessage />
                                 </FormItem>
                             )}
                         />
