@@ -374,7 +374,7 @@ export const ProductForm: React.FC<ProductFormProps> = ({
                                 <FormItem className="col-span-2">
                                     <FormLabel>Description</FormLabel>
                                     <FormControl>
-                                        <Textarea maxLength={999} rows={30} cols={999} disabled={loading} placeholder="Product description" {...field} />
+                                        <Textarea maxLength={999} rows={10} cols={1} disabled={loading} placeholder="Product description" {...field} />
                                     </FormControl>
                                     <FormMessage />
                                 </FormItem>
