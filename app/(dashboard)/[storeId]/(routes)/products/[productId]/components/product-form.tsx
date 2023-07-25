@@ -85,6 +85,7 @@ export const ProductForm: React.FC<ProductFormProps> = ({
     const onSubmit = async (data: ProductFormValues) => {
         try {
             setLoading(true);
+
             if (initialData) {
                 await axios.patch(`/api/${params.storeId}/products/${params.productId}`, data);
             } else {
@@ -373,7 +374,7 @@ export const ProductForm: React.FC<ProductFormProps> = ({
                                 <FormItem className="col-span-2">
                                     <FormLabel>Description</FormLabel>
                                     <FormControl>
-                                        <Textarea disabled={loading} placeholder="Product description" {...field} />
+                                        <Textarea maxLength={999} rows={30} cols={999} disabled={loading} placeholder="Product description" {...field} />
                                     </FormControl>
                                     <FormMessage />
                                 </FormItem>
