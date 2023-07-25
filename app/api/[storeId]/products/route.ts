@@ -42,6 +42,9 @@ export async function POST(
       return new NextResponse("Colour id is required", { status: 400 });
     }
 
+    if (!description) {
+      return new NextResponse("Description is required", { status: 400 });
+    }
 
     if (!weightId) {
       return new NextResponse("Weight id is required", { status: 400 });
