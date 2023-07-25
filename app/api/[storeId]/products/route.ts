@@ -100,7 +100,7 @@ export async function GET(
     const categoryId = searchParams.get('categoryId') || undefined;
     const weightId = searchParams.get('weightId') || undefined;
     const brandId = searchParams.get('brandId') || undefined;
-    const colourId = searchParams.get('brandId') || undefined;
+    const colourId = searchParams.get('colourId') || undefined;
     const isFeatured = searchParams.get('isFeatured');
 
     if (!params.storeId) {
