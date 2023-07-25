@@ -19,6 +19,7 @@ model Store {
   categories Category[] @relation("StoreToCategory")
   weights Weight[] @relation("StoreToWeight")
   brands Brand[] @relation("StoreToBrand")
+  colours Colour[] @relation("StoreToColour")
   products Product[] @relation("StoreToProduct")
   orders Order[] @relation("StoreToOrder")
   createdAt DateTime @default(now())
@@ -79,6 +80,19 @@ model Brand {
   @@index([storeId])
 }
 
+model Colour {
+  id String @id @default(uuid())
+  storeId String
+  store Store @relation("StoreToColour", fields: [storeId], references: [id])
+  name String
+  value String
+  products Product[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([storeId])
+}
+
 model Product {
   id String @id @default(uuid())
   storeId String
@@ -94,6 +108,8 @@ model Product {
   weight Weight @relation(fields: [weightId], references: [id])
   brandId String
   brand Brand @relation(fields: [brandId], references: [id])
+  colourId String
+  colour Colour @relation(fields: [colourId], references: [id])
   images Image[]
   orderItems OrderItem[] 
   createdAt DateTime @default(now())
@@ -103,6 +119,7 @@ model Product {
   @@index([categoryId])
   @@index([weightId])
   @@index([brandId])
+  @@index([colourId])
 }
 
 model Image {
@@ -137,6 +154,7 @@ model OrderItem {
   orderItem Order @relation(fields: [orderId], references: [id])
   productId String
   product Product @relation(fields: [productId], references: [id])
+  quantity Int 
 
   @@index([orderId])
   @@index([productId])

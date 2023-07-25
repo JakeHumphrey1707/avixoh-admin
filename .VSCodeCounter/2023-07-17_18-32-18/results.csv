@@ -1,0 +1,115 @@
+"filename", "language", "TypeScript JSX", "TypeScript", "JavaScript", "JSON", "JSON with Comments", "XML", "Markdown", "Prisma", "CSS", "comment", "blank", "total"
+"/Users/jakehumphrey/avixoh-admin/.eslintrc.json", "JSON", 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 1, 4
+"/Users/jakehumphrey/avixoh-admin/README.md", "Markdown", 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 1, 5
+"/Users/jakehumphrey/avixoh-admin/actions/get-archived-count.ts", "TypeScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 2, 12
+"/Users/jakehumphrey/avixoh-admin/actions/get-graph-revenue.ts", "TypeScript", 0, 47, 0, 0, 0, 0, 0, 0, 0, 0, 9, 56
+"/Users/jakehumphrey/avixoh-admin/actions/get-sales-count.ts", "TypeScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 2, 12
+"/Users/jakehumphrey/avixoh-admin/actions/get-stock-count.ts", "TypeScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 2, 12
+"/Users/jakehumphrey/avixoh-admin/actions/get-total-revenue.ts", "TypeScript", 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 4, 27
+"/Users/jakehumphrey/avixoh-admin/app/(auth)/(routes)/sign-in/[[...sign-in]]/page.tsx", "TypeScript JSX", 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5
+"/Users/jakehumphrey/avixoh-admin/app/(auth)/(routes)/sign-up/[[...sign-up]]/page.tsx", "TypeScript JSX", 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5
+"/Users/jakehumphrey/avixoh-admin/app/(auth)/layout.tsx", "TypeScript JSX", 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/billboards/[billboardId]/components/billboard-form.tsx", "TypeScript JSX", 142, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 153
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/billboards/[billboardId]/page.tsx", "TypeScript JSX", 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 24
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/billboards/components/cell-action.tsx", "TypeScript JSX", 73, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 81
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/billboards/components/client.tsx", "TypeScript JSX", 37, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 41
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/billboards/components/columns.tsx", "TypeScript JSX", 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 26
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/billboards/page.tsx", "TypeScript JSX", 31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 35
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/brands/[brandId]/components/brand-form.tsx", "TypeScript JSX", 136, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 147
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/brands/[brandId]/page.tsx", "TypeScript JSX", 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 24
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/brands/components/cell-action.tsx", "TypeScript JSX", 73, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 81
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/brands/components/client.tsx", "TypeScript JSX", 37, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 41
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/brands/components/columns.tsx", "TypeScript JSX", 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 31
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/brands/page.tsx", "TypeScript JSX", 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 36
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/categories/[categoryId]/components/category-form.tsx", "TypeScript JSX", 161, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 172
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/categories/[categoryId]/page.tsx", "TypeScript JSX", 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 33
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/categories/components/cell-action.tsx", "TypeScript JSX", 73, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 81
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/categories/components/client.tsx", "TypeScript JSX", 37, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 41
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/categories/components/columns.tsx", "TypeScript JSX", 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 32
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/categories/page.tsx", "TypeScript JSX", 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 39
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/orders/components/client.tsx", "TypeScript JSX", 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 25
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/orders/components/columns.tsx", "TypeScript JSX", 42, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 46
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/orders/page.tsx", "TypeScript JSX", 46, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 50
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/page.tsx", "TypeScript JSX", 82, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 86
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/products/[productId]/components/product-form.tsx", "TypeScript JSX", 338, 0, 0, 0, 0, 0, 0, 0, 0, 15, 11, 364
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/products/[productId]/page.tsx", "TypeScript JSX", 44, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 50
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/products/components/cell-action.tsx", "TypeScript JSX", 73, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 80
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/products/components/client.tsx", "TypeScript JSX", 37, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 41
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/products/components/columns.tsx", "TypeScript JSX", 47, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 51
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/products/page.tsx", "TypeScript JSX", 42, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 46
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/settings/components/settings-form.tsx", "TypeScript JSX", 117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 127
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/settings/page.tsx", "TypeScript JSX", 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 41
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/weights/[weightId]/components/weight-form.tsx", "TypeScript JSX", 136, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 147
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/weights/[weightId]/page.tsx", "TypeScript JSX", 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 24
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/weights/components/cell-action.tsx", "TypeScript JSX", 73, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 81
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/weights/components/client.tsx", "TypeScript JSX", 37, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 41
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/weights/components/columns.tsx", "TypeScript JSX", 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 31
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/weights/page.tsx", "TypeScript JSX", 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 36
+"/Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/layout.tsx", "TypeScript JSX", 31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 36
+"/Users/jakehumphrey/avixoh-admin/app/(root)/(routes)/page.tsx", "TypeScript JSX", 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 22
+"/Users/jakehumphrey/avixoh-admin/app/(root)/layout.tsx", "TypeScript JSX", 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 31
+"/Users/jakehumphrey/avixoh-admin/app/api/[storeId]/billboards/[billboardId]/route.ts", "TypeScript", 0, 98, 0, 0, 0, 0, 0, 0, 0, 0, 24, 122
+"/Users/jakehumphrey/avixoh-admin/app/api/[storeId]/billboards/route.ts", "TypeScript", 0, 62, 0, 0, 0, 0, 0, 0, 0, 0, 16, 78
+"/Users/jakehumphrey/avixoh-admin/app/api/[storeId]/brands/[brandId]/route.ts", "TypeScript", 0, 98, 0, 0, 0, 0, 0, 0, 0, 0, 24, 122
+"/Users/jakehumphrey/avixoh-admin/app/api/[storeId]/brands/route.ts", "TypeScript", 0, 62, 0, 0, 0, 0, 0, 0, 0, 0, 16, 78
+"/Users/jakehumphrey/avixoh-admin/app/api/[storeId]/categories/[categoryId]/route.ts", "TypeScript", 0, 101, 0, 0, 0, 0, 0, 0, 0, 0, 24, 125
+"/Users/jakehumphrey/avixoh-admin/app/api/[storeId]/categories/route.ts", "TypeScript", 0, 62, 0, 0, 0, 0, 0, 0, 0, 0, 16, 78
+"/Users/jakehumphrey/avixoh-admin/app/api/[storeId]/checkout/route.ts", "TypeScript", 0, 70, 0, 0, 0, 0, 0, 0, 0, 0, 10, 80
+"/Users/jakehumphrey/avixoh-admin/app/api/[storeId]/products/[productId]/route.ts", "TypeScript", 0, 147, 0, 0, 0, 0, 0, 0, 0, 0, 29, 176
+"/Users/jakehumphrey/avixoh-admin/app/api/[storeId]/products/route.ts", "TypeScript", 0, 108, 0, 0, 0, 0, 0, 0, 0, 0, 20, 128
+"/Users/jakehumphrey/avixoh-admin/app/api/[storeId]/weights/[weightId]/route.ts", "TypeScript", 0, 98, 0, 0, 0, 0, 0, 0, 0, 0, 24, 122
+"/Users/jakehumphrey/avixoh-admin/app/api/[storeId]/weights/route.ts", "TypeScript", 0, 62, 0, 0, 0, 0, 0, 0, 0, 0, 16, 78
+"/Users/jakehumphrey/avixoh-admin/app/api/stores/[storeId]/route.ts", "TypeScript", 0, 59, 0, 0, 0, 0, 0, 0, 0, 0, 14, 73
+"/Users/jakehumphrey/avixoh-admin/app/api/stores/route.ts", "TypeScript", 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 7, 35
+"/Users/jakehumphrey/avixoh-admin/app/api/webhook/route.ts", "TypeScript", 0, 57, 0, 0, 0, 0, 0, 0, 0, 0, 10, 67
+"/Users/jakehumphrey/avixoh-admin/app/globals.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 61, 0, 23, 84
+"/Users/jakehumphrey/avixoh-admin/app/layout.tsx", "TypeScript JSX", 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 34
+"/Users/jakehumphrey/avixoh-admin/components.json", "JSON", 0, 0, 0, 16, 0, 0, 0, 0, 0, 0, 0, 16
+"/Users/jakehumphrey/avixoh-admin/components/main-nav.tsx", "TypeScript JSX", 71, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 75
+"/Users/jakehumphrey/avixoh-admin/components/modals/alert-modal.tsx", "TypeScript JSX", 41, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 47
+"/Users/jakehumphrey/avixoh-admin/components/modals/store-modal.tsx", "TypeScript JSX", 85, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 95
+"/Users/jakehumphrey/avixoh-admin/components/navbar.tsx", "TypeScript JSX", 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 35
+"/Users/jakehumphrey/avixoh-admin/components/overview.tsx", "TypeScript JSX", 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 20
+"/Users/jakehumphrey/avixoh-admin/components/store-switcher.tsx", "TypeScript JSX", 92, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 101
+"/Users/jakehumphrey/avixoh-admin/components/theme-toggle.tsx", "TypeScript JSX", 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 41
+"/Users/jakehumphrey/avixoh-admin/components/ui/alert.tsx", "TypeScript JSX", 53, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 60
+"/Users/jakehumphrey/avixoh-admin/components/ui/api-alert.tsx", "TypeScript JSX", 48, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 56
+"/Users/jakehumphrey/avixoh-admin/components/ui/api-list.tsx", "TypeScript JSX", 45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 50
+"/Users/jakehumphrey/avixoh-admin/components/ui/badge.tsx", "TypeScript JSX", 31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 37
+"/Users/jakehumphrey/avixoh-admin/components/ui/button.tsx", "TypeScript JSX", 51, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 57
+"/Users/jakehumphrey/avixoh-admin/components/ui/card.tsx", "TypeScript JSX", 71, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 80
+"/Users/jakehumphrey/avixoh-admin/components/ui/checkbox.tsx", "TypeScript JSX", 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 31
+"/Users/jakehumphrey/avixoh-admin/components/ui/command.tsx", "TypeScript JSX", 137, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19, 156
+"/Users/jakehumphrey/avixoh-admin/components/ui/data-table.tsx", "TypeScript JSX", 122, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 130
+"/Users/jakehumphrey/avixoh-admin/components/ui/dialog.tsx", "TypeScript JSX", 111, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 124
+"/Users/jakehumphrey/avixoh-admin/components/ui/dropdown-menu.tsx", "TypeScript JSX", 182, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19, 201
+"/Users/jakehumphrey/avixoh-admin/components/ui/form.tsx", "TypeScript JSX", 152, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 177
+"/Users/jakehumphrey/avixoh-admin/components/ui/heading.tsx", "TypeScript JSX", 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 16
+"/Users/jakehumphrey/avixoh-admin/components/ui/image-upload.tsx", "TypeScript JSX", 69, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 78
+"/Users/jakehumphrey/avixoh-admin/components/ui/input.tsx", "TypeScript JSX", 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 26
+"/Users/jakehumphrey/avixoh-admin/components/ui/label.tsx", "TypeScript JSX", 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 27
+"/Users/jakehumphrey/avixoh-admin/components/ui/modal.tsx", "TypeScript JSX", 39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 43
+"/Users/jakehumphrey/avixoh-admin/components/ui/popover.tsx", "TypeScript JSX", 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 32
+"/Users/jakehumphrey/avixoh-admin/components/ui/select.tsx", "TypeScript JSX", 109, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 122
+"/Users/jakehumphrey/avixoh-admin/components/ui/separator.tsx", "TypeScript JSX", 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 32
+"/Users/jakehumphrey/avixoh-admin/components/ui/table.tsx", "TypeScript JSX", 104, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 115
+"/Users/jakehumphrey/avixoh-admin/components/ui/textarea.tsx", "TypeScript JSX", 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 25
+"/Users/jakehumphrey/avixoh-admin/hooks/use-origin.tsx", "TypeScript JSX", 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 16
+"/Users/jakehumphrey/avixoh-admin/hooks/use-store-modal.tsx", "TypeScript JSX", 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 13
+"/Users/jakehumphrey/avixoh-admin/lib/prismadb.ts", "TypeScript", 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 3, 10
+"/Users/jakehumphrey/avixoh-admin/lib/stripe.ts", "TypeScript", 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6
+"/Users/jakehumphrey/avixoh-admin/lib/utils.ts", "TypeScript", 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 3, 12
+"/Users/jakehumphrey/avixoh-admin/middleware.ts", "TypeScript", 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 2, 9
+"/Users/jakehumphrey/avixoh-admin/next.config.js", "JavaScript", 0, 0, 8, 0, 0, 0, 0, 0, 0, 1, 2, 11
+"/Users/jakehumphrey/avixoh-admin/package-lock.json", "JSON", 0, 0, 0, 6589, 0, 0, 0, 0, 0, 0, 1, 6590
+"/Users/jakehumphrey/avixoh-admin/package.json", "JSON", 0, 0, 0, 57, 0, 0, 0, 0, 0, 0, 1, 58
+"/Users/jakehumphrey/avixoh-admin/postcss.config.js", "JavaScript", 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 1, 7
+"/Users/jakehumphrey/avixoh-admin/prisma/schema.prisma", "Prisma", 0, 0, 0, 0, 0, 0, 0, 122, 0, 2, 21, 145
+"/Users/jakehumphrey/avixoh-admin/providers/modal-provider.tsx", "TypeScript JSX", 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 22
+"/Users/jakehumphrey/avixoh-admin/providers/theme-provider.tsx", "TypeScript JSX", 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 10
+"/Users/jakehumphrey/avixoh-admin/providers/toast-provider.tsx", "TypeScript JSX", 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 7
+"/Users/jakehumphrey/avixoh-admin/public/next.svg", "XML", 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"/Users/jakehumphrey/avixoh-admin/public/vercel.svg", "XML", 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"/Users/jakehumphrey/avixoh-admin/tailwind.config.js", "JavaScript", 0, 0, 75, 0, 0, 0, 0, 0, 0, 1, 0, 76
+"/Users/jakehumphrey/avixoh-admin/tsconfig.json", "JSON with Comments", 0, 0, 0, 0, 26, 0, 0, 0, 0, 2, 1, 29
+"Total", "-", 4289, 1240, 89, 6665, 26, 2, 4, 122, 61, 21, 812, 13331

@@ -21,6 +21,7 @@ export async function GET(
                 category: true,
                 weight: true,
                 brand: true,
+                colour: true,
             }
         });
 
@@ -82,6 +83,7 @@ export async function PATCH(
         const { 
           name,
           price,
+          colourId,
           categoryId,
           weightId,
           brandId,
@@ -100,6 +102,10 @@ export async function PATCH(
 
         if (!price) {
             return new NextResponse("Price is required", { status: 400 });
+        }
+
+        if (!colourId) {
+            return new NextResponse("Colour id is required", { status: 400 });
         }
       
         if (!categoryId) {
@@ -140,6 +146,7 @@ export async function PATCH(
             data: {
                 name,
                 price,
+                colourId,
                 categoryId,
                 weightId,
                 brandId,

@@ -1,6 +1,6 @@
 "use client";
 
-import { Product, Image, Category, Weight, Brand } from "@prisma/client";
+import { Product, Image, Category, Weight, Brand, Colour } from "@prisma/client";
 import { Heading } from "@/components/ui/heading";
 import { Button } from "@/components/ui/button";
 import { Trash } from "lucide-react";
@@ -28,6 +28,7 @@ const formSchema = z.object({
     categoryId: z.string().min(1),
     weightId: z.string().min(1),
     brandId: z.string().min(1),
+    colourId: z.string().min(1),
     isFeatured: z.boolean().default(false).optional(),
     isArchived: z.boolean().default(false).optional(),
 });
@@ -41,6 +42,7 @@ interface ProductFormProps {
     categories: Category[];
     weights: Weight[];
     brands: Brand[];
+    colours: Colour[];
 }
 
 export const ProductForm: React.FC<ProductFormProps> = ({
@@ -48,6 +50,7 @@ export const ProductForm: React.FC<ProductFormProps> = ({
     categories,
     weights,
     brands,
+    colours,
 }) => {
     const params = useParams();
     const router = useRouter();
@@ -73,6 +76,7 @@ export const ProductForm: React.FC<ProductFormProps> = ({
             categoryId: '',
             weightId: '',
             brandId: '',
+            colourId: '',
             isFeatured: false,
             isArchived: false,
         }
@@ -177,25 +181,13 @@ export const ProductForm: React.FC<ProductFormProps> = ({
                                 <FormItem>
                                     <FormLabel>Price</FormLabel>
                                     <FormControl>
-                                        <Input type="number" disabled={loading} placeholder="0.00" {...field}/>
+                                        <Input type="number" disabled={loading} placeholder="$0.00" {...field}/>
                                     </FormControl>
                                     <FormMessage />
                                 </FormItem>
                             )}
                         />
-                        {/*<FormField 
-                            control={form.control}
-                            name="quantity"
-                            render={({ field }) => (
-                                <FormItem>
-                                    <FormLabel>Quantity/Stock</FormLabel>
-                                    <FormControl>
-                                        <Input type="number "disabled={loading} placeholder="# of stock" {...field}/>
-                                    </FormControl>
-                                    <FormMessage />
-                                </FormItem>
-                            )}
-                            />*/}
+          
                         <FormField 
                             control={form.control}
                             name="categoryId"
@@ -290,6 +282,40 @@ export const ProductForm: React.FC<ProductFormProps> = ({
                                               value={brand.id}
                                             >
                                               {brand.name}
+                                            </SelectItem>
+                                          ))}
+                                        </SelectContent>
+                                      </Select>
+                                    <FormMessage />
+                                </FormItem>
+                            )}
+                        />
+                        <FormField 
+                            control={form.control}
+                            name="colourId"
+                            render={({ field }) => (
+                                <FormItem>
+                                    <FormLabel>Colour</FormLabel>
+                                      <Select 
+                                        disabled={loading} 
+                                        onValueChange={field.onChange} 
+                                        value={field.value} 
+                                        defaultValue={field.value}
+                                      >
+                                        <FormControl>
+                                          <SelectTrigger>
+                                            <SelectValue 
+                                               defaultValue={field.value} placeholder="Select a colour"
+                                            />
+                                          </SelectTrigger>
+                                        </FormControl>
+                                        <SelectContent>
+                                          {colours.map((colour) => (
+                                            <SelectItem
+                                              key={colour.id}
+                                              value={colour.id}
+                                            >
+                                              {colour.name}
                                             </SelectItem>
                                           ))}
                                         </SelectContent>

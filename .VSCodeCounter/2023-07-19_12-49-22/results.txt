@@ -1,0 +1,231 @@
+Date : 2023-07-19 12:49:22
+Directory : /Users/jakehumphrey/avixoh-admin
+Total : 113 files,  12498 codes, 21 comments, 812 blanks, all 13331 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          4 |      6,665 |          0 |          3 |      6,668 |
+| TypeScript JSX     |         77 |      4,289 |         15 |        482 |      4,786 |
+| TypeScript         |         23 |      1,240 |          0 |        278 |      1,518 |
+| Prisma             |          1 |        122 |          2 |         21 |        145 |
+| JavaScript         |          3 |         89 |          2 |          3 |         94 |
+| CSS                |          1 |         61 |          0 |         23 |         84 |
+| JSON with Comments |          1 |         26 |          2 |          1 |         29 |
+| Markdown           |          1 |          4 |          0 |          1 |          5 |
+| XML                |          2 |          2 |          0 |          0 |          2 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                       | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                          |        113 |     12,498 |         21 |        812 |     13,331 |
+| . (Files)                                                                                                                  |         10 |      6,791 |          4 |         10 |      6,805 |
+| actions                                                                                                                    |          5 |        100 |          0 |         19 |        119 |
+| app                                                                                                                        |         58 |      3,558 |         15 |        502 |      4,075 |
+| app (Files)                                                                                                                |          2 |         91 |          0 |         27 |        118 |
+| app/(auth)                                                                                                                 |          3 |         19 |          0 |          2 |         21 |
+| app/(auth) (Files)                                                                                                         |          1 |         11 |          0 |          0 |         11 |
+| app/(auth)/(routes)                                                                                                        |          2 |          8 |          0 |          2 |         10 |
+| app/(auth)/(routes)/sign-in                                                                                                |          1 |          4 |          0 |          1 |          5 |
+| app/(auth)/(routes)/sign-in/[[...sign-in]]                                                                                 |          1 |          4 |          0 |          1 |          5 |
+| app/(auth)/(routes)/sign-up                                                                                                |          1 |          4 |          0 |          1 |          5 |
+| app/(auth)/(routes)/sign-up/[[...sign-up]]                                                                                 |          1 |          4 |          0 |          1 |          5 |
+| app/(dashboard)                                                                                                            |         37 |      2,296 |         15 |        210 |      2,521 |
+| app/(dashboard)/[storeId]                                                                                                  |         37 |      2,296 |         15 |        210 |      2,521 |
+| app/(dashboard)/[storeId] (Files)                                                                                          |          1 |         31 |          0 |          5 |         36 |
+| app/(dashboard)/[storeId]/(routes)                                                                                         |         36 |      2,265 |         15 |        205 |      2,485 |
+| app/(dashboard)/[storeId]/(routes) (Files)                                                                                 |          1 |         82 |          0 |          4 |         86 |
+| app/(dashboard)/[storeId]/(routes)/billboards                                                                              |          6 |        326 |          0 |         34 |        360 |
+| app/(dashboard)/[storeId]/(routes)/billboards (Files)                                                                      |          1 |         31 |          0 |          4 |         35 |
+| app/(dashboard)/[storeId]/(routes)/billboards/[billboardId]                                                                |          2 |        163 |          0 |         14 |        177 |
+| app/(dashboard)/[storeId]/(routes)/billboards/[billboardId] (Files)                                                        |          1 |         21 |          0 |          3 |         24 |
+| app/(dashboard)/[storeId]/(routes)/billboards/[billboardId]/components                                                     |          1 |        142 |          0 |         11 |        153 |
+| app/(dashboard)/[storeId]/(routes)/billboards/components                                                                   |          3 |        132 |          0 |         16 |        148 |
+| app/(dashboard)/[storeId]/(routes)/brands                                                                                  |          6 |        326 |          0 |         34 |        360 |
+| app/(dashboard)/[storeId]/(routes)/brands (Files)                                                                          |          1 |         32 |          0 |          4 |         36 |
+| app/(dashboard)/[storeId]/(routes)/brands/[brandId]                                                                        |          2 |        157 |          0 |         14 |        171 |
+| app/(dashboard)/[storeId]/(routes)/brands/[brandId] (Files)                                                                |          1 |         21 |          0 |          3 |         24 |
+| app/(dashboard)/[storeId]/(routes)/brands/[brandId]/components                                                             |          1 |        136 |          0 |         11 |        147 |
+| app/(dashboard)/[storeId]/(routes)/brands/components                                                                       |          3 |        137 |          0 |         16 |        153 |
+| app/(dashboard)/[storeId]/(routes)/categories                                                                              |          6 |        363 |          0 |         35 |        398 |
+| app/(dashboard)/[storeId]/(routes)/categories (Files)                                                                      |          1 |         35 |          0 |          4 |         39 |
+| app/(dashboard)/[storeId]/(routes)/categories/[categoryId]                                                                 |          2 |        190 |          0 |         15 |        205 |
+| app/(dashboard)/[storeId]/(routes)/categories/[categoryId] (Files)                                                         |          1 |         29 |          0 |          4 |         33 |
+| app/(dashboard)/[storeId]/(routes)/categories/[categoryId]/components                                                      |          1 |        161 |          0 |         11 |        172 |
+| app/(dashboard)/[storeId]/(routes)/categories/components                                                                   |          3 |        138 |          0 |         16 |        154 |
+| app/(dashboard)/[storeId]/(routes)/orders                                                                                  |          3 |        110 |          0 |         11 |        121 |
+| app/(dashboard)/[storeId]/(routes)/orders (Files)                                                                          |          1 |         46 |          0 |          4 |         50 |
+| app/(dashboard)/[storeId]/(routes)/orders/components                                                                       |          2 |         64 |          0 |          7 |         71 |
+| app/(dashboard)/[storeId]/(routes)/products                                                                                |          6 |        581 |         15 |         36 |        632 |
+| app/(dashboard)/[storeId]/(routes)/products (Files)                                                                        |          1 |         42 |          0 |          4 |         46 |
+| app/(dashboard)/[storeId]/(routes)/products/[productId]                                                                    |          2 |        382 |         15 |         17 |        414 |
+| app/(dashboard)/[storeId]/(routes)/products/[productId] (Files)                                                            |          1 |         44 |          0 |          6 |         50 |
+| app/(dashboard)/[storeId]/(routes)/products/[productId]/components                                                         |          1 |        338 |         15 |         11 |        364 |
+| app/(dashboard)/[storeId]/(routes)/products/components                                                                     |          3 |        157 |          0 |         15 |        172 |
+| app/(dashboard)/[storeId]/(routes)/settings                                                                                |          2 |        151 |          0 |         17 |        168 |
+| app/(dashboard)/[storeId]/(routes)/settings (Files)                                                                        |          1 |         34 |          0 |          7 |         41 |
+| app/(dashboard)/[storeId]/(routes)/settings/components                                                                     |          1 |        117 |          0 |         10 |        127 |
+| app/(dashboard)/[storeId]/(routes)/weights                                                                                 |          6 |        326 |          0 |         34 |        360 |
+| app/(dashboard)/[storeId]/(routes)/weights (Files)                                                                         |          1 |         32 |          0 |          4 |         36 |
+| app/(dashboard)/[storeId]/(routes)/weights/[weightId]                                                                      |          2 |        157 |          0 |         14 |        171 |
+| app/(dashboard)/[storeId]/(routes)/weights/[weightId] (Files)                                                              |          1 |         21 |          0 |          3 |         24 |
+| app/(dashboard)/[storeId]/(routes)/weights/[weightId]/components                                                           |          1 |        136 |          0 |         11 |        147 |
+| app/(dashboard)/[storeId]/(routes)/weights/components                                                                      |          3 |        137 |          0 |         16 |        153 |
+| app/(root)                                                                                                                 |          2 |         40 |          0 |         13 |         53 |
+| app/(root) (Files)                                                                                                         |          1 |         26 |          0 |          5 |         31 |
+| app/(root)/(routes)                                                                                                        |          1 |         14 |          0 |          8 |         22 |
+| app/api                                                                                                                    |         14 |      1,112 |          0 |        250 |      1,362 |
+| app/api/[storeId]                                                                                                          |         11 |        968 |          0 |        219 |      1,187 |
+| app/api/[storeId]/billboards                                                                                               |          2 |        160 |          0 |         40 |        200 |
+| app/api/[storeId]/billboards (Files)                                                                                       |          1 |         62 |          0 |         16 |         78 |
+| app/api/[storeId]/billboards/[billboardId]                                                                                 |          1 |         98 |          0 |         24 |        122 |
+| app/api/[storeId]/brands                                                                                                   |          2 |        160 |          0 |         40 |        200 |
+| app/api/[storeId]/brands (Files)                                                                                           |          1 |         62 |          0 |         16 |         78 |
+| app/api/[storeId]/brands/[brandId]                                                                                         |          1 |         98 |          0 |         24 |        122 |
+| app/api/[storeId]/categories                                                                                               |          2 |        163 |          0 |         40 |        203 |
+| app/api/[storeId]/categories (Files)                                                                                       |          1 |         62 |          0 |         16 |         78 |
+| app/api/[storeId]/categories/[categoryId]                                                                                  |          1 |        101 |          0 |         24 |        125 |
+| app/api/[storeId]/checkout                                                                                                 |          1 |         70 |          0 |         10 |         80 |
+| app/api/[storeId]/products                                                                                                 |          2 |        255 |          0 |         49 |        304 |
+| app/api/[storeId]/products (Files)                                                                                         |          1 |        108 |          0 |         20 |        128 |
+| app/api/[storeId]/products/[productId]                                                                                     |          1 |        147 |          0 |         29 |        176 |
+| app/api/[storeId]/weights                                                                                                  |          2 |        160 |          0 |         40 |        200 |
+| app/api/[storeId]/weights (Files)                                                                                          |          1 |         62 |          0 |         16 |         78 |
+| app/api/[storeId]/weights/[weightId]                                                                                       |          1 |         98 |          0 |         24 |        122 |
+| app/api/stores                                                                                                             |          2 |         87 |          0 |         21 |        108 |
+| app/api/stores (Files)                                                                                                     |          1 |         28 |          0 |          7 |         35 |
+| app/api/stores/[storeId]                                                                                                   |          1 |         59 |          0 |         14 |         73 |
+| app/api/webhook                                                                                                            |          1 |         57 |          0 |         10 |         67 |
+| components                                                                                                                 |         29 |      1,852 |          0 |        237 |      2,089 |
+| components (Files)                                                                                                         |          5 |        247 |          0 |         25 |        272 |
+| components/modals                                                                                                          |          2 |        126 |          0 |         16 |        142 |
+| components/ui                                                                                                              |         22 |      1,479 |          0 |        196 |      1,675 |
+| hooks                                                                                                                      |          2 |         23 |          0 |          6 |         29 |
+| lib                                                                                                                        |          3 |         21 |          0 |          7 |         28 |
+| prisma                                                                                                                     |          1 |        122 |          2 |         21 |        145 |
+| providers                                                                                                                  |          3 |         29 |          0 |         10 |         39 |
+| public                                                                                                                     |          2 |          2 |          0 |          0 |          2 |
++----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                                                   | language           | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| /Users/jakehumphrey/avixoh-admin/.eslintrc.json                                                                            | JSON               |          3 |          0 |          1 |          4 |
+| /Users/jakehumphrey/avixoh-admin/README.md                                                                                 | Markdown           |          4 |          0 |          1 |          5 |
+| /Users/jakehumphrey/avixoh-admin/actions/get-archived-count.ts                                                             | TypeScript         |         10 |          0 |          2 |         12 |
+| /Users/jakehumphrey/avixoh-admin/actions/get-graph-revenue.ts                                                              | TypeScript         |         47 |          0 |          9 |         56 |
+| /Users/jakehumphrey/avixoh-admin/actions/get-sales-count.ts                                                                | TypeScript         |         10 |          0 |          2 |         12 |
+| /Users/jakehumphrey/avixoh-admin/actions/get-stock-count.ts                                                                | TypeScript         |         10 |          0 |          2 |         12 |
+| /Users/jakehumphrey/avixoh-admin/actions/get-total-revenue.ts                                                              | TypeScript         |         23 |          0 |          4 |         27 |
+| /Users/jakehumphrey/avixoh-admin/app/(auth)/(routes)/sign-in/[[...sign-in]]/page.tsx                                       | TypeScript JSX     |          4 |          0 |          1 |          5 |
+| /Users/jakehumphrey/avixoh-admin/app/(auth)/(routes)/sign-up/[[...sign-up]]/page.tsx                                       | TypeScript JSX     |          4 |          0 |          1 |          5 |
+| /Users/jakehumphrey/avixoh-admin/app/(auth)/layout.tsx                                                                     | TypeScript JSX     |         11 |          0 |          0 |         11 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/billboards/[billboardId]/components/billboard-form.tsx | TypeScript JSX     |        142 |          0 |         11 |        153 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/billboards/[billboardId]/page.tsx                      | TypeScript JSX     |         21 |          0 |          3 |         24 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/billboards/components/cell-action.tsx                  | TypeScript JSX     |         73 |          0 |          8 |         81 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/billboards/components/client.tsx                       | TypeScript JSX     |         37 |          0 |          4 |         41 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/billboards/components/columns.tsx                      | TypeScript JSX     |         22 |          0 |          4 |         26 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/billboards/page.tsx                                    | TypeScript JSX     |         31 |          0 |          4 |         35 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/brands/[brandId]/components/brand-form.tsx             | TypeScript JSX     |        136 |          0 |         11 |        147 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/brands/[brandId]/page.tsx                              | TypeScript JSX     |         21 |          0 |          3 |         24 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/brands/components/cell-action.tsx                      | TypeScript JSX     |         73 |          0 |          8 |         81 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/brands/components/client.tsx                           | TypeScript JSX     |         37 |          0 |          4 |         41 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/brands/components/columns.tsx                          | TypeScript JSX     |         27 |          0 |          4 |         31 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/brands/page.tsx                                        | TypeScript JSX     |         32 |          0 |          4 |         36 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/categories/[categoryId]/components/category-form.tsx   | TypeScript JSX     |        161 |          0 |         11 |        172 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/categories/[categoryId]/page.tsx                       | TypeScript JSX     |         29 |          0 |          4 |         33 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/categories/components/cell-action.tsx                  | TypeScript JSX     |         73 |          0 |          8 |         81 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/categories/components/client.tsx                       | TypeScript JSX     |         37 |          0 |          4 |         41 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/categories/components/columns.tsx                      | TypeScript JSX     |         28 |          0 |          4 |         32 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/categories/page.tsx                                    | TypeScript JSX     |         35 |          0 |          4 |         39 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/orders/components/client.tsx                           | TypeScript JSX     |         22 |          0 |          3 |         25 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/orders/components/columns.tsx                          | TypeScript JSX     |         42 |          0 |          4 |         46 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/orders/page.tsx                                        | TypeScript JSX     |         46 |          0 |          4 |         50 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/page.tsx                                               | TypeScript JSX     |         82 |          0 |          4 |         86 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/products/[productId]/components/product-form.tsx       | TypeScript JSX     |        338 |         15 |         11 |        364 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/products/[productId]/page.tsx                          | TypeScript JSX     |         44 |          0 |          6 |         50 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/products/components/cell-action.tsx                    | TypeScript JSX     |         73 |          0 |          7 |         80 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/products/components/client.tsx                         | TypeScript JSX     |         37 |          0 |          4 |         41 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/products/components/columns.tsx                        | TypeScript JSX     |         47 |          0 |          4 |         51 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/products/page.tsx                                      | TypeScript JSX     |         42 |          0 |          4 |         46 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/settings/components/settings-form.tsx                  | TypeScript JSX     |        117 |          0 |         10 |        127 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/settings/page.tsx                                      | TypeScript JSX     |         34 |          0 |          7 |         41 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/weights/[weightId]/components/weight-form.tsx          | TypeScript JSX     |        136 |          0 |         11 |        147 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/weights/[weightId]/page.tsx                            | TypeScript JSX     |         21 |          0 |          3 |         24 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/weights/components/cell-action.tsx                     | TypeScript JSX     |         73 |          0 |          8 |         81 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/weights/components/client.tsx                          | TypeScript JSX     |         37 |          0 |          4 |         41 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/weights/components/columns.tsx                         | TypeScript JSX     |         27 |          0 |          4 |         31 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/(routes)/weights/page.tsx                                       | TypeScript JSX     |         32 |          0 |          4 |         36 |
+| /Users/jakehumphrey/avixoh-admin/app/(dashboard)/[storeId]/layout.tsx                                                      | TypeScript JSX     |         31 |          0 |          5 |         36 |
+| /Users/jakehumphrey/avixoh-admin/app/(root)/(routes)/page.tsx                                                              | TypeScript JSX     |         14 |          0 |          8 |         22 |
+| /Users/jakehumphrey/avixoh-admin/app/(root)/layout.tsx                                                                     | TypeScript JSX     |         26 |          0 |          5 |         31 |
+| /Users/jakehumphrey/avixoh-admin/app/api/[storeId]/billboards/[billboardId]/route.ts                                       | TypeScript         |         98 |          0 |         24 |        122 |
+| /Users/jakehumphrey/avixoh-admin/app/api/[storeId]/billboards/route.ts                                                     | TypeScript         |         62 |          0 |         16 |         78 |
+| /Users/jakehumphrey/avixoh-admin/app/api/[storeId]/brands/[brandId]/route.ts                                               | TypeScript         |         98 |          0 |         24 |        122 |
+| /Users/jakehumphrey/avixoh-admin/app/api/[storeId]/brands/route.ts                                                         | TypeScript         |         62 |          0 |         16 |         78 |
+| /Users/jakehumphrey/avixoh-admin/app/api/[storeId]/categories/[categoryId]/route.ts                                        | TypeScript         |        101 |          0 |         24 |        125 |
+| /Users/jakehumphrey/avixoh-admin/app/api/[storeId]/categories/route.ts                                                     | TypeScript         |         62 |          0 |         16 |         78 |
+| /Users/jakehumphrey/avixoh-admin/app/api/[storeId]/checkout/route.ts                                                       | TypeScript         |         70 |          0 |         10 |         80 |
+| /Users/jakehumphrey/avixoh-admin/app/api/[storeId]/products/[productId]/route.ts                                           | TypeScript         |        147 |          0 |         29 |        176 |
+| /Users/jakehumphrey/avixoh-admin/app/api/[storeId]/products/route.ts                                                       | TypeScript         |        108 |          0 |         20 |        128 |
+| /Users/jakehumphrey/avixoh-admin/app/api/[storeId]/weights/[weightId]/route.ts                                             | TypeScript         |         98 |          0 |         24 |        122 |
+| /Users/jakehumphrey/avixoh-admin/app/api/[storeId]/weights/route.ts                                                        | TypeScript         |         62 |          0 |         16 |         78 |
+| /Users/jakehumphrey/avixoh-admin/app/api/stores/[storeId]/route.ts                                                         | TypeScript         |         59 |          0 |         14 |         73 |
+| /Users/jakehumphrey/avixoh-admin/app/api/stores/route.ts                                                                   | TypeScript         |         28 |          0 |          7 |         35 |
+| /Users/jakehumphrey/avixoh-admin/app/api/webhook/route.ts                                                                  | TypeScript         |         57 |          0 |         10 |         67 |
+| /Users/jakehumphrey/avixoh-admin/app/globals.css                                                                           | CSS                |         61 |          0 |         23 |         84 |
+| /Users/jakehumphrey/avixoh-admin/app/layout.tsx                                                                            | TypeScript JSX     |         30 |          0 |          4 |         34 |
+| /Users/jakehumphrey/avixoh-admin/components.json                                                                           | JSON               |         16 |          0 |          0 |         16 |
+| /Users/jakehumphrey/avixoh-admin/components/main-nav.tsx                                                                   | TypeScript JSX     |         71 |          0 |          4 |         75 |
+| /Users/jakehumphrey/avixoh-admin/components/modals/alert-modal.tsx                                                         | TypeScript JSX     |         41 |          0 |          6 |         47 |
+| /Users/jakehumphrey/avixoh-admin/components/modals/store-modal.tsx                                                         | TypeScript JSX     |         85 |          0 |         10 |         95 |
+| /Users/jakehumphrey/avixoh-admin/components/navbar.tsx                                                                     | TypeScript JSX     |         30 |          0 |          5 |         35 |
+| /Users/jakehumphrey/avixoh-admin/components/overview.tsx                                                                   | TypeScript JSX     |         18 |          0 |          2 |         20 |
+| /Users/jakehumphrey/avixoh-admin/components/store-switcher.tsx                                                             | TypeScript JSX     |         92 |          0 |          9 |        101 |
+| /Users/jakehumphrey/avixoh-admin/components/theme-toggle.tsx                                                               | TypeScript JSX     |         36 |          0 |          5 |         41 |
+| /Users/jakehumphrey/avixoh-admin/components/ui/alert.tsx                                                                   | TypeScript JSX     |         53 |          0 |          7 |         60 |
+| /Users/jakehumphrey/avixoh-admin/components/ui/api-alert.tsx                                                               | TypeScript JSX     |         48 |          0 |          8 |         56 |
+| /Users/jakehumphrey/avixoh-admin/components/ui/api-list.tsx                                                                | TypeScript JSX     |         45 |          0 |          5 |         50 |
+| /Users/jakehumphrey/avixoh-admin/components/ui/badge.tsx                                                                   | TypeScript JSX     |         31 |          0 |          6 |         37 |
+| /Users/jakehumphrey/avixoh-admin/components/ui/button.tsx                                                                  | TypeScript JSX     |         51 |          0 |          6 |         57 |
+| /Users/jakehumphrey/avixoh-admin/components/ui/card.tsx                                                                    | TypeScript JSX     |         71 |          0 |          9 |         80 |
+| /Users/jakehumphrey/avixoh-admin/components/ui/checkbox.tsx                                                                | TypeScript JSX     |         26 |          0 |          5 |         31 |
+| /Users/jakehumphrey/avixoh-admin/components/ui/command.tsx                                                                 | TypeScript JSX     |        137 |          0 |         19 |        156 |
+| /Users/jakehumphrey/avixoh-admin/components/ui/data-table.tsx                                                              | TypeScript JSX     |        122 |          0 |          8 |        130 |
+| /Users/jakehumphrey/avixoh-admin/components/ui/dialog.tsx                                                                  | TypeScript JSX     |        111 |          0 |         13 |        124 |
+| /Users/jakehumphrey/avixoh-admin/components/ui/dropdown-menu.tsx                                                           | TypeScript JSX     |        182 |          0 |         19 |        201 |
+| /Users/jakehumphrey/avixoh-admin/components/ui/form.tsx                                                                    | TypeScript JSX     |        152 |          0 |         25 |        177 |
+| /Users/jakehumphrey/avixoh-admin/components/ui/heading.tsx                                                                 | TypeScript JSX     |         15 |          0 |          1 |         16 |
+| /Users/jakehumphrey/avixoh-admin/components/ui/image-upload.tsx                                                            | TypeScript JSX     |         69 |          0 |          9 |         78 |
+| /Users/jakehumphrey/avixoh-admin/components/ui/input.tsx                                                                   | TypeScript JSX     |         21 |          0 |          5 |         26 |
+| /Users/jakehumphrey/avixoh-admin/components/ui/label.tsx                                                                   | TypeScript JSX     |         21 |          0 |          6 |         27 |
+| /Users/jakehumphrey/avixoh-admin/components/ui/modal.tsx                                                                   | TypeScript JSX     |         39 |          0 |          4 |         43 |
+| /Users/jakehumphrey/avixoh-admin/components/ui/popover.tsx                                                                 | TypeScript JSX     |         25 |          0 |          7 |         32 |
+| /Users/jakehumphrey/avixoh-admin/components/ui/select.tsx                                                                  | TypeScript JSX     |        109 |          0 |         13 |        122 |
+| /Users/jakehumphrey/avixoh-admin/components/ui/separator.tsx                                                               | TypeScript JSX     |         27 |          0 |          5 |         32 |
+| /Users/jakehumphrey/avixoh-admin/components/ui/table.tsx                                                                   | TypeScript JSX     |        104 |          0 |         11 |        115 |
+| /Users/jakehumphrey/avixoh-admin/components/ui/textarea.tsx                                                                | TypeScript JSX     |         20 |          0 |          5 |         25 |
+| /Users/jakehumphrey/avixoh-admin/hooks/use-origin.tsx                                                                      | TypeScript JSX     |         12 |          0 |          4 |         16 |
+| /Users/jakehumphrey/avixoh-admin/hooks/use-store-modal.tsx                                                                 | TypeScript JSX     |         11 |          0 |          2 |         13 |
+| /Users/jakehumphrey/avixoh-admin/lib/prismadb.ts                                                                           | TypeScript         |          7 |          0 |          3 |         10 |
+| /Users/jakehumphrey/avixoh-admin/lib/stripe.ts                                                                             | TypeScript         |          5 |          0 |          1 |          6 |
+| /Users/jakehumphrey/avixoh-admin/lib/utils.ts                                                                              | TypeScript         |          9 |          0 |          3 |         12 |
+| /Users/jakehumphrey/avixoh-admin/middleware.ts                                                                             | TypeScript         |          7 |          0 |          2 |          9 |
+| /Users/jakehumphrey/avixoh-admin/next.config.js                                                                            | JavaScript         |          8 |          1 |          2 |         11 |
+| /Users/jakehumphrey/avixoh-admin/package-lock.json                                                                         | JSON               |      6,589 |          0 |          1 |      6,590 |
+| /Users/jakehumphrey/avixoh-admin/package.json                                                                              | JSON               |         57 |          0 |          1 |         58 |
+| /Users/jakehumphrey/avixoh-admin/postcss.config.js                                                                         | JavaScript         |          6 |          0 |          1 |          7 |
+| /Users/jakehumphrey/avixoh-admin/prisma/schema.prisma                                                                      | Prisma             |        122 |          2 |         21 |        145 |
+| /Users/jakehumphrey/avixoh-admin/providers/modal-provider.tsx                                                              | TypeScript JSX     |         17 |          0 |          5 |         22 |
+| /Users/jakehumphrey/avixoh-admin/providers/theme-provider.tsx                                                              | TypeScript JSX     |          7 |          0 |          3 |         10 |
+| /Users/jakehumphrey/avixoh-admin/providers/toast-provider.tsx                                                              | TypeScript JSX     |          5 |          0 |          2 |          7 |
+| /Users/jakehumphrey/avixoh-admin/public/next.svg                                                                           | XML                |          1 |          0 |          0 |          1 |
+| /Users/jakehumphrey/avixoh-admin/public/vercel.svg                                                                         | XML                |          1 |          0 |          0 |          1 |
+| /Users/jakehumphrey/avixoh-admin/tailwind.config.js                                                                        | JavaScript         |         75 |          1 |          0 |         76 |
+| /Users/jakehumphrey/avixoh-admin/tsconfig.json                                                                             | JSON with Comments |         26 |          2 |          1 |         29 |
+| Total                                                                                                                      |                    |     12,498 |         21 |        812 |     13,331 |
++----------------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
