@@ -43,7 +43,7 @@ export async function POST(
         minimum: 0,
       },
       price_data: {
-        currency: 'USD',
+        currency: 'AUD',
         product_data: {
           name: product.name,
         },
