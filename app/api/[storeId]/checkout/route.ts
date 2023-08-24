@@ -39,7 +39,7 @@ export async function POST(
       quantity: 1,
       adjustable_quantity: { 
         enabled: true,
-        maximum: 50,
+        maximum: 20,
         minimum: 0,
       },
       price_data: {

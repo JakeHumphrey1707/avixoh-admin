@@ -23,8 +23,8 @@ export const WeightsClient: React.FC<WeightsClientProps> = ({
             <>
                 <div className="flex items-center justify-between">
                     <Heading 
-                        title={`Weights (${data.length})`}
-                        description="Manage weight filters for your store"
+                        title={`Weights / Bodyshapes (${data.length})`}
+                        description="Manage weight and bodyshape filters for your store"
                     />
                     <Button onClick={() => router.push(`/${params.storeId}/weights/new`)}>
                         <Plus className="mr-2 h-4 w-4"/>

@@ -39,17 +39,17 @@ export function MainNav({
         },
         {
           href: `/${params.storeId}/colours`,
-          label: 'Colours',
+          label: 'Colours/Genders',
           active: pathname === `/${params.storeId}/colours`,
         },
         {
           href: `/${params.storeId}/weights`,
-          label: 'Weights',
+          label: 'Weights/Bodyshapes',
           active: pathname === `/${params.storeId}/weights`,
         },
         {
           href: `/${params.storeId}/brands`,
-          label: 'Brands',
+          label: 'Brands/Accessories',
           active: pathname === `/${params.storeId}/brands`,
         },
         {

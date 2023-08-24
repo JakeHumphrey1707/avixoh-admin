@@ -23,8 +23,8 @@ export const ColoursClient: React.FC<ColoursClientProps> = ({
             <>
                 <div className="flex items-center justify-between">
                     <Heading 
-                        title={`Colours (${data.length})`}
-                        description="Manage colour filters for your store"
+                        title={`Colours / Genders (${data.length})`}
+                        description="Manage colour and gender filters for your store"
                     />
                     <Button onClick={() => router.push(`/${params.storeId}/colours/new`)}>
                         <Plus className="mr-2 h-4 w-4"/>

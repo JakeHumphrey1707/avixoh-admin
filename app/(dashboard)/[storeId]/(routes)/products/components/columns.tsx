@@ -23,7 +23,7 @@ export const columns: ColumnDef<ProductColumn>[] = [
   },
   {
     accessorKey: "isArchived",
-    header: "Archived",
+    header: "Backorder",
     cell: ({ row }) => (row.original.isArchived ? <Check name="tick" color="green" /> : <X name="cross" color="red" />),
   },
   {

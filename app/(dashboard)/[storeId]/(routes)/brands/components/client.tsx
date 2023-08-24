@@ -23,8 +23,8 @@ export const BrandsClient: React.FC<BrandsClientProps> = ({
             <>
                 <div className="flex items-center justify-between">
                     <Heading 
-                        title={`Brands (${data.length})`}
-                        description="Manage brand filters for your store"
+                        title={`Brands / Accessories (${data.length})`}
+                        description="Manage brand and accessory filters for your store"
                     />
                     <Button onClick={() => router.push(`/${params.storeId}/brands/new`)}>
                         <Plus className="mr-2 h-4 w-4"/>
