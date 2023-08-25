@@ -361,7 +361,7 @@ export const ProductForm: React.FC<ProductFormProps> = ({
                                     <div className="space-y-1 leading-none">
                                       <FormLabel>Backorder</FormLabel>
                                       <FormDescription>
-                                        Product will be on "backorder" and will not appear anywhere in the store. &#40;This is automatically applied after a purchase.&#41;
+                                        Product will be on "backorder" and will not appear anywhere in the store. This is automatically applied after a purchase.
                                       </FormDescription>
                                     </div>
                                 </FormItem>
