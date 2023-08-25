@@ -38,9 +38,9 @@ export const ColourForm: React.FC<ColourFormProps> = ({
     const [open, setOpen] = useState(false);
     const [loading, setLoading] = useState(false);
 
-    const title = initialData ? "Edit colour" : "Create colour";
-    const description = initialData ? "Edit a colour" : "Add a new colour";
-    const toastMessage = initialData ? "Colour updated" : "Colour created";
+    const title = initialData ? "Edit colour/gender" : "Create colour/gender";
+    const description = initialData ? "Edit a colour/gender" : "Add a new colour/gender";
+    const toastMessage = initialData ? "Colour/gender updated" : "Colour/gender created";
     const action = initialData ? "Save changes" : "Create";
 
     const form = useForm<ColourFormValues>({
@@ -117,9 +117,9 @@ export const ColourForm: React.FC<ColourFormProps> = ({
                             name="name"
                             render={({ field }) => (
                                 <FormItem>
-                                    <FormLabel>Colour</FormLabel>
+                                    <FormLabel>Colour/gender</FormLabel>
                                     <FormControl>
-                                        <Input disabled={loading} placeholder="Colour name" {...field}/>
+                                        <Input disabled={loading} placeholder="colour/gender" {...field}/>
                                     </FormControl>
                                     <FormMessage />
                                 </FormItem>

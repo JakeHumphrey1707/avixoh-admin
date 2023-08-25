@@ -36,9 +36,9 @@ export const BrandForm: React.FC<BrandFormProps> = ({
     const [open, setOpen] = useState(false);
     const [loading, setLoading] = useState(false);
 
-    const title = initialData ? "Edit brand" : "Create brand";
-    const description = initialData ? "Edit a brand" : "Add a new brand";
-    const toastMessage = initialData ? "Brand updated" : "Brand created";
+    const title = initialData ? "Edit brand/accessory" : "Create brand/accessory";
+    const description = initialData ? "Edit a brand/accessory" : "Add a new brand/accessory";
+    const toastMessage = initialData ? "Brand/accessory updated" : "Brand/accessory created";
     const action = initialData ? "Save changes" : "Create";
 
     const form = useForm<BrandFormValues>({
@@ -115,9 +115,9 @@ export const BrandForm: React.FC<BrandFormProps> = ({
                             name="name"
                             render={({ field }) => (
                                 <FormItem>
-                                    <FormLabel>Brand name</FormLabel>
+                                    <FormLabel>Brand/accessory</FormLabel>
                                     <FormControl>
-                                        <Input disabled={loading} placeholder="..." {...field}/>
+                                        <Input disabled={loading} placeholder="brand/accessory" {...field}/>
                                     </FormControl>
                                     <FormMessage />
                                 </FormItem>

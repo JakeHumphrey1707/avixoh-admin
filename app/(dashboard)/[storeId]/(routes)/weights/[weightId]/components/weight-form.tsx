@@ -36,9 +36,9 @@ export const WeightForm: React.FC<WeightFormProps> = ({
     const [open, setOpen] = useState(false);
     const [loading, setLoading] = useState(false);
 
-    const title = initialData ? "Edit weight" : "Create weight";
-    const description = initialData ? "Edit a weight" : "Add a new weight";
-    const toastMessage = initialData ? "Weight updated" : "Weight created";
+    const title = initialData ? "Edit weight/bodyshape" : "Create weight/bodyshape";
+    const description = initialData ? "Edit a weight/bodyshape" : "Add a new weight/bodyshape";
+    const toastMessage = initialData ? "Weight/bodyshape updated" : "Weight/bodyshape created";
     const action = initialData ? "Save changes" : "Create";
 
     const form = useForm<WeightFormValues>({
@@ -115,9 +115,9 @@ export const WeightForm: React.FC<WeightFormProps> = ({
                             name="name"
                             render={({ field }) => (
                                 <FormItem>
-                                    <FormLabel>Weight</FormLabel>
+                                    <FormLabel>Weight/bodyshape</FormLabel>
                                     <FormControl>
-                                        <Input disabled={loading} placeholder="Weight name" {...field}/>
+                                        <Input disabled={loading} placeholder="weight/bodyshape" {...field}/>
                                     </FormControl>
                                     <FormMessage />
                                 </FormItem>
